@@ -1,0 +1,40 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+ul.header {
+	list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+li {
+	font-size: 20px;
+	float : left;
+  display: block;
+   width: 100px;
+}
+p.FirstText {
+	color:white;
+  font-size:30px;
+}
+div.opening{
+  clear:both;
+  width: 100%;
+  height: 500px;
+  background-image : url("http://discover10.com/wp-content/uploads/2015/03/Cool-Backgrounds-Wallpapers.jpg");
+  background-size: cover;
+}
+li#facebook {
+	max-width: 64px;
+	max-height: 64px;
+	min-width: 64px;
+	min-height: 64px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAB+0lEQVR4Xu2b8TUEQQzGf1cBOqACVIAK6IAOUAEqQAV0gApQASpAB0rw8uxyt969m2Rn1u768t+9y+wm32QyXzKzE/ojG8AusF2ZZL+XE8x7AzaBjwTdXyqTyKCMY8zBQ+Ao0dl5r94BHiJ2/SUAe8A5sBoxvDFmcACY4zbruWRQAFwBB7k8r54zGABs1m32c8sgALCs/pTb8yFFwP3UFpcbh95HgO3tBkAp6T0A18B+Ke+B3gPwmmm/HyQRKpn8akCMCj9HIqwLJthm63sHbhfwfPs/5LwB1gUAp8BJYHbuKsIUKnJS39dnANYAq/SKShcAWIhameuVLmzrZAlYmbrl9P6xIGmaMaULlAWAIkBLQDlASXCMu4B1dK3BkaOp6cRnRv0MMLYZkjbbYOkaP9Uho8orqcpNvTEA0KqmEQDR0Kmoask2l8e08ESGBwqAr0NMRYAnTgvqhiM5PFBLQEtAOeDfJ0GrAawdvVQwuaU8+rLNXYM2SbA2rr7TM8/YC2A9xZMpnZdEp6wOCJ8JtOLQDofUE1RPUD1B9QTVE3QkTVPVyZCOxn7uDDuDx6eegwgteqN4gHiAeIB4gHjAokzZ+F88QDxAPOD74ynn6vGpiwj58AppiwmKCYoJigmKCTrTp5jgmJhg5Lr8qCLAPpK+cS6BY8CO1IrLJ40CfEGVczNkAAAAAElFTkSuQmCC');
+}
+
+li#google {
+	max-width: 64px;
+	max-height: 64px;
+  min-width: 64px;
+	min-height: 64px;
+	background-image: url('data:image/png;base64,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');
+}
